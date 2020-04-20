@@ -12,8 +12,9 @@ function App() {
         <div style={{ marginLeft: "280px", wordSpacing: "-10px" }}>
           <TextContain></TextContain>
           <div><img src={JumboTron} style={{width:"1239px", marginTop:"40px"}}></img></div>
+          <Brunchkeyword></Brunchkeyword>
         </div>
-      <Brunchkeyword></Brunchkeyword>
+      
     </div >
   );
 }

@@ -19,7 +19,7 @@ const UnderText = styled.h3`
     width: 149px;
     height: 11px;
     background-position: -175px 0;
-    margin: 17px auto 0;
+    margin: 17px auto;
     background-image: url(${textImg});
 `
 
@@ -32,20 +32,25 @@ const TemplateGrid = styled.div`
 
 function Brunchkeyword(props) {
   return (
-    <div style={{margin: "0 auto"}}>
+    <div>
       <Keyword />
       <UnderText></UnderText>
       <TemplateGrid>
-        <div>adsfsaf</div>
-        <div>adsfsaf</div>
-        <div>adsfsaf</div>
-        <div>adsfsaf</div>
-        <div>adsfsaf</div>
-        <div>adsfsaf</div>
-        <div>adsfsaf</div>
-        <div>adsfsaf</div>
-        <div>adsfsaf</div>
-        <div>adsfsaf</div>
+        <div>dhtocks</div>
+        <div>dhtocks</div>
+        <div>dhtocks</div>
+        <div>dhtocks</div>
+        <div>dhtocks</div>
+        <div>dhtocks</div>
+        <div>dhtocks</div>
+        <div>dhtocks</div>
+        <div>dhtocks</div>
+        <div>dhtocks</div>
+        <div>dhtocks</div>
+        <div>dhtocks</div>
+        <div>dhtocks</div>
+        <div>dhtocks</div>
+        <div>dhtocks</div>
       </TemplateGrid>
     </div>
   );
