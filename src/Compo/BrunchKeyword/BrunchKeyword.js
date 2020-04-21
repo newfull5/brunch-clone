@@ -26,8 +26,8 @@ const UnderText = styled.h3`
 const TemplateGrid = styled.div`
     display: grid;
     grid-template-columns: repeat(8, 119px);
-    grid-template-rows: repeat(3, 119px)
-    margin: 10px auto 0;
+    grid-template-rows: repeat(3, 119px);
+    border: 2px;
 `
 
 function Brunchkeyword(props) {
@@ -35,23 +35,25 @@ function Brunchkeyword(props) {
     <div>
       <Keyword />
       <UnderText></UnderText>
-      <TemplateGrid>
-        <div>dhtocks</div>
-        <div>dhtocks</div>
-        <div>dhtocks</div>
-        <div>dhtocks</div>
-        <div>dhtocks</div>
-        <div>dhtocks</div>
-        <div>dhtocks</div>
-        <div>dhtocks</div>
-        <div>dhtocks</div>
-        <div>dhtocks</div>
-        <div>dhtocks</div>
-        <div>dhtocks</div>
-        <div>dhtocks</div>
-        <div>dhtocks</div>
-        <div>dhtocks</div>
-      </TemplateGrid>
+      <div style={{margin:"0 0 0 250px"}}>
+        <TemplateGrid>
+          <div>dhtocks</div>
+          <div>dhtocks</div>
+          <div>dhtocks</div>
+          <div>dhtocks</div>
+          <div>dhtocks</div>
+          <div>dhtocks</div>
+          <div>dhtocks</div>
+          <div>dhtocks</div>
+          <div>dhtocks</div>
+          <div>dhtocks</div>
+          <div>dhtocks</div>
+          <div>dhtocks</div>
+          <div>dhtocks</div>
+          <div>dhtocks</div>
+          <div>dhtocks</div>
+        </TemplateGrid>
+      </div>
     </div>
   );
 }

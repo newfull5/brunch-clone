@@ -9,12 +9,13 @@ function App() {
   return (
     <div>
       <Navbar></Navbar>
-        <div style={{ marginLeft: "280px", wordSpacing: "-10px" }}>
-          <TextContain></TextContain>
-          <div><img src={JumboTron} style={{width:"1239px", marginTop:"40px"}}></img></div>
-          <Brunchkeyword></Brunchkeyword>
-        </div>
-      
+      <div style={{ height: "600px", margin: "0 0 0 280px " }}>
+        <TextContain></TextContain>
+        <img src={JumboTron} style={{ display: "block", maxHeight: "auto", maxWidth: "100%", marginTop: "50px"}} />
+      </div>
+      <div style={{ width: "auto", height: "500px", marginTop: "400px"}}>
+        <Brunchkeyword></Brunchkeyword>
+      </div>
     </div >
   );
 }
